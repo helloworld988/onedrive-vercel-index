@@ -7,7 +7,7 @@ module.exports = {
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You can also put this in your Vercel's environment variable 'NEXT_PUBLIC_USER_PRINCIPLE_NAME' if you worry about
   // your email being exposed in public.
-  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'spencer@spwoo.onmicrosoft.com',
+  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'qianjue@544445.onmicrosoft.com', 
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
@@ -20,7 +20,7 @@ module.exports = {
   title: "Spencer's OneDrive",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
-  baseDirectory: '/Public',
+  baseDirectory: '/软件',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
@@ -30,13 +30,13 @@ module.exports = {
   // You can check and generate the required links and names at https://fonts.google.com.
   // googleFontSans - the sans serif font used in onedrive-vercel-index.
   googleFontSans: 'Inter',
-  // googleFontMono - the monospace font used in onedrive-vercel-index.
-  googleFontMono: 'Fira Mono',
+  // googleFontMono - the monospace font used in onedrive-vercel-index. 
+  googleFontMono: 'Fira Mono', 
   // googleFontLinks -  an array of links for referencing the google font assets.
   googleFontLinks: ['https://fonts.googleapis.com/css2?family=Fira+Mono&family=Inter:wght@400;500;700&display=swap'],
 
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
-  // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
+  // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io 
   footer:
     'Powered by <a href="https://github.com/spencerwooo/onedrive-vercel-index" target="_blank" rel="noopener noreferrer">onedrive-vercel-index</a>. Made with ❤ by SpencerWoo.',
 
